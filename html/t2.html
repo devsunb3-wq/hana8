@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first html</title>
+    <style>
+        aside {
+            border: 1px solid green;
+        }
+
+        header,
+        nav,
+        footer {
+            border: 1px solid green;
+            margin: 5px;
+        }
+
+        nav {
+            border: 1px solid green;
+            margin: 5px;
+            border-radius: 50px;
+        }
+
+
+        h1 {
+            font-size: 1.5rem;
+        }
+
+        aside {
+            height: 50vh;
+            display: flex;
+            vertical-align: middle;
+        }
+
+        .container {
+            width: 400px;
+            border: 2px dotted;
+            border-color: blue;
+            margin: 10px;
+            background-color: yellow;
+            padding: 2rem;
+        }
+
+        img:not(.x) {
+            border: 3px dotted red;
+            margin-left: 15px;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        /* img:not(.x) */
+        .dot-red {
+            border: 2px dotted red;
+        }
+
+        /* 이게먼데 */
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>header</header>
+    <nav>nav</nav>
+    <!-- <div class="container" style="display: flex; justify-content: space-between;"> -->
+    <main
+        style="border: 1px solid red; padding: 5px; display: flex; justify-content: space-between; align-items: center;">
+        <div class="container">
+            <h1>main > container</h1>
+            <section>section</section>
+            <article style="font-size:2rem;">
+                <h3 style="font-size: 1.2rem;">article - title</h3>
+                <figure style="display: inline-flex">
+                    <img src="https://avatar.vercel.sh/s" alt="S" class="x" />
+                    <img src="https://unsplash.com/photos/b51xWeb75R4/download?ixid=M3wxMjA3fDB8MXxhbGx8M3x8fHx8fHx8MTc2MTg3OTc1M3w&force=true"
+                        alt="lion" width="150">
+                </figure>
+            </article>
+        </div>
+        <aside style="display:flex; justify-content: center; align-items: center; ">aside</aside>
+        <!-- </div> -->
+    </main>
+    <footer class="text-center"><b>&#169; 시니어코딩</b></footer>
+
+</body>
+
+</html>
